@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Tiara Citra Mustika</title>
+  <meta name="description" content="Profile of Tiara Citra Mustika, a Cyber Security enthusiast and leader in the field of IT and cybersecurity.">
+  <meta name="keywords" content="Tiara Citra Mustika, Cyber Security, HIMTEKK, Amikom">
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='/vendors/themify-icons/css/themify-icons.css') }}">
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="static/css/main.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="icon" href="{{ url_for('static', filename='/img/icon.png') }}">
+</head>
+
+<body class="index-page">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#profile" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+
+    <!-- Profile Section -->
+    <section id="profile" class="hero section light-background">
+      <img src="{{ url_for('static', filename='imgs/bg.jpg') }}" alt="" data-aos="fade-in">
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9 text-center">
+            <h2>Tiara Citra Mustika</h2>
+            <p>I'm a <span class="typed" data-typed-items="Cyber Security Enthusiast, Community Leader, Developer">Cyber Security Enthusiast</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/capt8n_/profilecard/"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/tiara-citra-mustika-05209a24b/"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Tiara Citra Mustika is a 5th-semester student at Universitas Amikom Yogyakarta with a passion for cybersecurity, Internet of Things, and leadership. She aims to inspire others through her work as Chairperson of HIMTEKK and through her initiatives in Cybersecurity Community.</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="{{ url_for('static', filename='/imgs/profile.jpg') }}" class="img-fluid" alt="Tiara Citra Mustika">
+          </div>
+          <div class="col-lg-8 content">
+            <h3>Cybersecurity Enthusiast &amp; Community Leader</h3>
+            <p class="fst-italic py-3">
+              With a strong focus on building secure digital spaces, Tiara has contributed to various projects and initiatives in cybersecurity awareness and vulnerability analysis.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Sleman, Yogyakarta, Indonesia</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>117citraam@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Computer Engineering</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Focus:</strong> <span>Cybersecurity</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nickname:</strong> <span>capt8n</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">Network Security <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Cyber Threat Intelligence <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 85%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">Web Vulnerability Analysis <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 95%;"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">OSINT <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width: 80%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Universitas Amikom Yogyakarta</h4>
+              <h5>2021 - Present</h5>
+              <p><em>Bachelor’s degree in Computer Engineering, specializing in Cyber Security</em></p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Chairperson of HIMTEKK AMIKOM YOGYAKARTA</h4>
+              <h5>2024 - Present</h5>
+              <p><em>Yogyakarta, Indonesia </em></p>
+              <ul>
+                <li>Lead community</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Public Relation of Jogja Cyber Security</h4>
+              <h5>2024 - Present</h5>
+              <p><em>Yogyakarta, Indonesia</em></p>
+              <ul>
+                <li>Social relation of community</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Secretary at XyberXecurity Group</h4>
+              <h5>2024 - Present</h5>
+              <p><em>Jakarta, Indonesia</em></p>
+              <ul>
+                <li>Assistant Head Of Community XyberXecurity Group</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <p><i class="bi bi-envelope"></i> <strong>Email:</strong> 117citraam@gmail.com</p>
+            <p><i class="bi bi-phone"></i> <strong>Phone:</strong> 08989067949</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <p>&copy; 2024 Tiara Citra Mustika</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/aos/aos.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/js/main.js"></script>
+
+</body>
+
+</html>
